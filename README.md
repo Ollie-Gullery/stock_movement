@@ -26,15 +26,41 @@ python movement_predict.py
 
 # Example Output
 Accuracy Score:
+
+
 <img width="463" alt="Screen Shot 2023-01-25 at 9 57 38 PM" src="https://user-images.githubusercontent.com/115392875/214768733-7a37c704-a21b-4de6-9fd5-24924f97c9a0.png">
 
-<img width="495" alt="Screen Shot 2023-01-25 at 9 55 59 PM" src="https://user-images.githubusercontent.com/115392875/214768652-aac13ab5-16e2-46b2-be86-717124b9837f.png">
+
+
+
 Confuson Matrix:
+
+
 <img width="495" alt="Screen Shot 2023-01-25 at 9 55 59 PM" src="https://user-images.githubusercontent.com/115392875/214768652-aac13ab5-16e2-46b2-be86-717124b9837f.png">
+
+
 
 
 Feature Improvement Plot:
-<img width="741" alt="Screen Shot 2023-01-25 at 9 56 20 PM" src="https://user-images.githubusercontent.com/115392875/214768767-4d89b153-b603-4a3f-9f27-fde44ea7666b.png">
+
+
+<img width="495" alt="Screen Shot 2023-01-25 at 9 56 20 PM" src="https://user-images.githubusercontent.com/115392875/214768767-4d89b153-b603-4a3f-9f27-fde44ea7666b.png">
+
+
 
 ROC Curve:
-<img width="621" alt="Screen Shot 2023-01-25 at 9 56 26 PM" src="https://user-images.githubusercontent.com/115392875/214768770-8e0f888a-6201-4fce-a6e6-aec9685553e5.png">
+
+
+<img width="495" alt="Screen Shot 2023-01-25 at 9 56 26 PM" src="https://user-images.githubusercontent.com/115392875/214768770-8e0f888a-6201-4fce-a6e6-aec9685553e5.png">
+
+
+
+Libraries Used Includes: `numpy`, `pandas`, `sklearn`, `matplotlib` 
+
+# Potential Enhancements + future opportunties
+* More user friendly interface
+* Removing features with low impact on model to improve runtime
+* Incorporate External Data
+* Could further develop to provide stock recommendations to buy or sell certain stocks
+
+
