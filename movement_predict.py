@@ -405,4 +405,4 @@ def model_improvement(x_train, y_train, x_test, y_test, acc_score):
     print(f'Accuracy Increased By: {improved_acc_score - acc_score}% - from {acc_score}% to {improved_acc_score}%.')
 
 
-# model_improvement(x_train, y_train, x_test, y_test, acc_score)
+model_improvement(x_train, y_train, x_test, y_test, acc_score)
