@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from py_vollib.black_scholes.greeks.analytical import vega
 from datetime import datetime
-
+from datetime import date
 
 # obtain the risk free rate
 rf_ticker = yf.Ticker("^TNX")  # 10 Year Treasury US
