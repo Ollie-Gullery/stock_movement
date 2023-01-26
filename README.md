@@ -1,7 +1,7 @@
 # stock_movement
 A python program that scrapes https://finance.yahoo.com/ based on a list of input tickers (default is 'JPM', 'AAPL', 'AMZN', 'WMT') and uses Random Forest to classify upwards or downwards movements.
 
-#Overview
+## Overview
 Historical data from selected stocks was stored into a csv file [price_data.csv]. Five momentum indicators (stochastic oscillator, RSI, Williams percentage range, 
 price rate of change and on the balance volume) utlised to estimate movement of stocks. 
 
