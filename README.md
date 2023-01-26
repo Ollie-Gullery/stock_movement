@@ -15,7 +15,9 @@ First open terminal and type `cd` into the directory where you would like to dow
 ```
 git clone https://github.com/Ollie-Gullery/stock_movement.git
 ```
-Use the following command to run the program:
+Then use `cd` into the folder `stock_movement`
+
+You can subsequently use the following command to run the program:
 ```
 python movement_predict.py
 ```
