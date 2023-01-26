@@ -294,14 +294,6 @@ plt.title('Receiver operating characteristic (ROC Curve)')
 plt.legend(loc="lower right")
 plt.show()
 
-
-plt.plot(x_test, y_test)
-plt.plot(x_test, y_pred)
-plt.title('Predicted vs Actual Movement')
-plt.xlabel('Price')
-plt.ylabel('Time')
-plt.show()
-
 def model_improvement(x_train, y_train, x_test, y_test, acc_score):
     # Number of trees in a random forest
     n_estimators = list(range(200, 2000, 200))
